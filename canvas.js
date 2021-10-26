@@ -19,3 +19,9 @@ c.moveTo(150, 500)
 c.lineTo(300, 400)
 c.lineTo(400, 370)
 c.stroke()
+
+//arc or circle
+c.beginPath()
+c.arc(300, 300, 30, 0, Math.PI * 2, false)
+c.strokeStyle = "blue"
+c.stroke()
